@@ -1,0 +1,31 @@
+Parte 1.Defina mediante un ejemplo de forma clara:
+1. La sintaxis de un PROP es:
+R/ta:
+function App() {
+  return (
+    <>
+      <center><h1>Unos animalitos</h1></center>
+      <ListaClientes/>
+    </>
+  )
+}
+
+
+
+2.La sintaxis de la exportacion nominal y respectiva importacion es:
+R/ta:
+Exportación nominal:
+export function App() { }
+export const datos = []
+
+
+Exportacion e impportacion por defecto:
+export default App
+import App from './App'
+
+3.La sintaxis del hook useState:
+R/ta:
+
+const [count, setCount] = useState(0)
+
+
